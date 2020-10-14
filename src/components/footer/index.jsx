@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Container,
   Row,
@@ -7,7 +7,7 @@ import {
   Title,
   Text,
   Break,
-} from "./styles/footer";
+} from './styles/footer';
 
 export default function Footer({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;

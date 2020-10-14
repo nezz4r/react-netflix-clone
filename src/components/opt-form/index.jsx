@@ -1,5 +1,5 @@
-import React from "react";
-import { Container, Input, Button, Text } from "./styles/opt-form";
+import React from 'react';
+import { Container, Input, Button, Text } from './styles/opt-form';
 
 export default function OptForm({ children, ...props }) {
   return <Container {...props}> {children}</Container>;
@@ -13,7 +13,7 @@ OptForm.Button = function OptFormButton({ children, ...props }) {
   return (
     <Button {...props}>
       {children}
-      <img src="/images/icons/chevron-right.png" alt="Try Now"></img>{" "}
+      <img src="/images/icons/chevron-right.png" alt="Try Now"></img>{' '}
     </Button>
   );
 };

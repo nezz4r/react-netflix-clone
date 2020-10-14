@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import {
   JumbotronContainer,
   FooterContainer,
   FaqsContainer,
-} from "./containers";
+} from './containers';
 
 export default function App() {
   return (

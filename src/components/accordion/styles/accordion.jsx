@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from 'styled-components/macro';
 
 export const Container = styled.div`
   display: flex;
@@ -25,15 +25,17 @@ export const Title = styled.h1`
   color: white;
   text-align: center;
 
-  @media (max-width: 600px){
-    font-size 35px;
+  @media (max-width: 600px) {
+    font-size: 35px;
   }
 `;
 
 export const Item = styled.div`
   color: white;
   margin-bottom: 10px;
-  max-width: 670px;
+  margin: auto;
+  max-width: 700px;
+  width: 100%;
   &:first-of-type {
     margin-top: 3em;
   }
